@@ -1,0 +1,36 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.guess-me {
+	width: 350px;
+	height: 200px;
+	background-color: blue;
+	margin-bottom: 30px;
+}
+button {
+	height: 50px;
+	width: 103px;
+	padding: 4px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+button + button {
+	margin-left: 20px;
+}
+.wrong {
+	color: red;
+	font-size: 24px;
+	text-align: center;
+}
+.correct {
+	color: green;
+	font-size: 24px;
+	text-align: center;
+}
+.title {
+	text-align: center;
+}
