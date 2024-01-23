@@ -1,0 +1,36 @@
+.App {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #242424;
+	flex-direction: column;
+	color: #fff;
+}
+
+.grid {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.row {
+	display: flex;
+	gap: 10px;
+}
+.card {
+	padding: 20px;
+	background-color: #fff;
+	color: #000;
+	width: 45px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.card:hover {
+	background-color: #e9e9e9;
+}
+.revealed {
+	pointer-events: unset;
+}
